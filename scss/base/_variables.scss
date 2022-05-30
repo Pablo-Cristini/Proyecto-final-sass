@@ -1,0 +1,61 @@
+/*Tamanios fuentes*/
+    $titulo: 45px;
+    $subtitulo:20px;
+    $textos:30px;
+    $textoSecundario:35px;
+
+
+
+/*colores*/
+    $color-principal: #B61616;
+    $color-secundario: #100F0F;
+    $color-nav: #3B3838;
+    $color-fuente: #ffff;
+
+/*Posiciones*/
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%flex-display {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+%flex-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+%flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+%flex-aa {
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+}
+
+/*MediaQuerys*/
+@mixin mediaQuery($pantalla){
+
+    @if $pantalla == 'mobile'{
+        @media only screen and (max-width:500px){
+            @content
+        };  
+    }
+    @if $pantalla == 'tablet' {
+        @media only screen and (max-width:780px){
+            @content
+        };
+    }
+    @if $pantalla == 'desktop' {
+        @media only screen and (max-width:1352px){
+            @content
+        };
+    }
+    
+}
