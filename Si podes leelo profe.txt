@@ -1,0 +1,12 @@
+Hola Jose como va? Espero que muy bien. Primero que nada queria agredecerte
+por la buena onda que le pusiste al curso y a todas las clases, la verdad 
+que estoy super conforme y a gusto de haber sido parte de esta camada y formar 
+parte de tus clases. Muchas gracias!
+
+Queria comentarte que decidi hacer todo el codigo de vuelta para pasarlo en limpio
+y hacer todo lo que mas podia en sass, ya que creia que me iba a servir mucho para 
+practicar. Por ulitmo queria contarte que me ofrecieron mi primer trabajo para 
+maquetar y darle estilo con css-scss a la web de unos amigos que son programadores
+pero querian incluirme en su proyecto. 
+
+Gracias Jose!
